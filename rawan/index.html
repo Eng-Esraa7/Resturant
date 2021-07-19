@@ -1,0 +1,409 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="" content ="">
+    <title>resturants</title>
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/project1.css">
+    <style>
+        .clear{
+            clear: both;
+        }
+        body
+        {
+        margin:0;
+        padding:0;
+        font-family:tahoma,arial;
+        background:url("chicken1.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:1000px;
+        font-size:17px;
+        color:rgb(32,0,0);
+        }
+        .head
+        {
+        padding:30px 0;
+        background:rgba(218,165,32,0.5);
+        text-align:center;
+        color:blue;
+        font:150px bold;
+        text-transform:capitalize;
+        }
+        .foot
+        {
+        background:rgba(218,165,32,0.5);
+        text-align:center;
+        color:blue;
+        font:140px bold;
+        text-transform:capitalize;
+        width:100%;
+        margin-top: 20px;
+        }
+        .row1,.row2,.row3
+        {
+        top:80px;
+        margin-left: 4%;
+        margin-right: 4%;
+        }
+
+        .img:hover, .img:hover, .img:hover{
+            transform:scale(1.3,1.3);
+        }
+        
+        .one,.two,.three 
+        {
+        border-radius:25px;  
+        border:2px inset #DAA520;
+        width:30%;
+        white-space:normal;
+        text-align:center;
+        background-color:#cc7a004d;
+        margin-top: 70px;
+        float: left;
+        min-height: 600px;
+        }
+        .two, .three{
+            margin-left:5%;
+        }
+        
+        .one img,.two img,.three img
+        {
+        border-radius:25px; 
+        width:100%;
+        height:230;
+        cursor:pointer;
+        }
+        
+        .chosen
+        {
+        background:#080;
+        padding:5px;
+        width:100%;
+        height:40px;
+        display:block;
+        border:2px ridge gray;
+        border:none;
+        outline:none;
+        border-radius:20px;
+        color:white;
+        font-size:25px;
+        }
+    .chosen:hover
+        {
+        background-color:#00ff00;
+        border-radius:20px;
+        cursor:pointer;
+        }
+        .chosen:active
+        {
+        background-color:#80ff80;
+        border-radius:20px;
+        }
+    .one img:hover,.two img:hover,.three img:hover
+        {
+        border-radius:20px;
+        }
+    .row1 pieces,.row2 pieces,.row3 pieces
+        {
+        display:inline;
+        left:2px;
+        padding:1px;
+        }
+        select
+        {
+        margin:15px;
+        background:#339933;
+        color:#ffff00;
+        width:300px;
+        border-radius:10px;
+        font-size:20px;
+        width: 90%;
+        outline: none;
+        cursor: pointer;
+        }
+        .name
+        {
+        font-size:28px;
+        font-weight:bold;
+        font-family:"American Typewriter", serif;
+        }
+        .price
+        {
+        font-size:20px;
+        color:#331100;
+        font-weight:bold;
+        }
+        .des
+        {
+        font-size:20px;
+        font-family:"Lucida Console", Monaco, monospace;
+        }
+        #first
+        {
+        bottom:1440px;
+        }
+        #second
+        {
+        bottom:760px;
+        }
+        #third
+        {
+        bottom:80px;
+        }
+
+        .empty{
+            background: rgba(218,165,32,0.5);
+            padding: 40px;
+            margin-top: 0px;
+        }
+
+        .logo, .logofaq span{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="header">
+        <div class="containerfaq">
+        <div class="logo logofaq"><span>Chefista </span>Restaurant</div>
+        <div class="linkcontainer">
+        <ul class="links index">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../aya/index.html">Login</a></li>
+            <li><a href="../aya/register/index.html">Register</a></li>
+            <li><a href="index.html"  class="active">Chicken</a></li>
+            <li><a href="../beef/index.html">Beef</a></li>
+            <li><a href="../seefood/index.html">SeaFood</a></li>
+            <li><a href="../sara/index.html">Drinks</a></li>
+            <li><a href="../faq/index.html">FAQ</a></li>
+            <hr>
+            <button><a href="../aya/index.html">Log Out</a></button>
+        </ul>
+    <button class="toggle">
+            <img src="../img/toggle.png" alt=" ">
+        </button>
+    </div>
+    </nav>
+    <div class="empty">
+    </div>
+<div class="head">Chefista Restaurant</div>
+<div class="row1">
+    <div class="one">
+        <img class="img" src="burger_zinger_web_thumb.jpg" alt="burger_zinger" />
+        <P class="name">zinger burger  </p>
+        <p class="price">50.85&pound; |1819kj<P>
+        <p>------------------------------------</p>
+        <p class="des" >100% breast chicken coated in Zinger flavouring,lettuce and mayo all perfectly matched to deliver a 
+        spicy flavour hit.</p>
+        <br>
+        <select class="pieces" >
+            <optgroup label="number of Sandwich:">
+                <option> 1 Sandwich with cola</option>
+                <option> 2 Sandwich with cola</option>
+                <option> 3 Sandwich with cola</option>
+                <option> 4 Sandwich with cola</option>
+                <option> 5 Sandwich with cola</option>
+                <option> 6 Sandwich with cola</option>
+                <option> 7 Sandwich with cola</option>
+                <option> 8 Sandwich with cola</option>
+                <option> 9 Sandwich with cola</option>
+                <option> 10 Sandwich with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="first" type="button" value="Order now">
+    </div>
+    
+    <div class="two">
+        <img class="img" src="Double_tender_web_thumb.jpg" alt="double tender" />
+        <P class="name">Double tender</p>
+        <p class="price">60&pound; |2223kj<P>
+        <p>------------------------------------</p>
+        <p class="des">Double the tenders,double the fun.Topped off with saucy lil'peppermayo and crisp lettuce,
+        all on a warm sesame seed bun.</p>
+        <br>
+        <select class="pieces" >
+            <optgroup label="number of Sandwich:">
+                <option> 1 Sandwich with Cola</option>
+                <option> 2 Sandwich with Cola</option>
+                <option> 3 Sandwich with Cola</option>
+                <option> 4 Sandwich with Cola</option>
+                <option> 5 Sandwich with Cola</option>
+                <option> 6 Sandwich with Cola</option>
+                <option> 7 Sandwich with Cola</option>
+                <option> 8 Sandwich with Cola</option>
+                <option> 9 Sandwich with Cola</option>
+                <option> 10 Sandwich with Cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="second" type="button" value="Order now">
+    </div>
+    <div class="three">
+        <img class="img" src="Popcorn-Chicken-Reg_Combo_web_thumb.jpg" alt="Popcorn-Chicken-Reg_Combo"/>
+        <P class="name">Popcorn Chicken Combo</p>
+        <p class="price">80.34&pound; |2535kj<P>
+        <p>------------------------------------</p>
+        <p class="des"> Bite size pieces of chicken cooked in a crunchy coating,served with chips and a drink.</p>
+        <br>
+        <br>
+        <br>
+        <input class="chosen" id="third" type="button" value="Order now">
+    </div>
+</div>
+<div class="clear"></div>
+<div class="row2">
+    <div class="one">
+        <img class="img" src="crispy-chicken-salad-light_03-1024x550.jpg" alt="crispy-chicken-salad-light" />
+        <P class="name">crispy chicken salad light</p>
+        <p class="price">&pound;30.14 |1023kj<P>
+        <p>------------------------------------</p>
+        <p class="des">Chicken cut into pieces with lettuce</p>
+        <br>
+        <br>
+        <br>
+        <select class="pieces" >
+            <optgroup label="number of pieces:">
+                <option> 1 pieces with cola</option>
+                <option> 2 pieces with cola</option>
+                <option> 3 pieces with cola</option>
+                <option> 4 pieces with cola</option>
+                <option> 5 pieces with cola</option>
+                <option> 6 pieces with cola</option>
+                <option> 7 pieces with cola</option>
+                <option> 8 pieces with cola</option>
+                <option> 9 pieces with cola</option>
+                <option> 10 pieces with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="first" type="button" value="Order now">
+    </div>
+    <div class="two">
+        <img class="img" src="Zinger_Stacker_Burger_Combo_web_thumb.jpg" alt="Zinger_Stacker_Burger" />
+        <P class="name">Zinger Stacker Burger</p>
+        <p class="price">&pound;80.95 |3054kj<P>
+        <p>------------------------------------</p>
+        <p class="des">The Zinger Stacker has 2 spicy,topped with lettuce,cheese and drizzled with 
+        Supercharged Sauce and chilli relish for that extra kick. </p>
+        <select class="pieces" >
+            <optgroup label="number of Sandwich:">
+                <option> 1 Sandwich with Cola</option>
+                <option> 2 Sandwich with Cola</option>
+                <option> 3 Sandwich with Cola</option>
+                <option> 4 Sandwich with Cola</option>
+                <option> 5 Sandwich with Cola</option>
+                <option> 6 Sandwich with Cola</option>
+                <option> 7 Sandwich with Cola</option>
+                <option> 8 Sandwich with Cola</option>
+                <option> 9 Sandwich with Cola</option>
+                <option> 10 Sandwich with Cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="second"  type="button" value="Order now">
+    </div>
+    <div class="three">
+        <img class="img" src="original pepper mayo slider.jpg" alt="original BBQ slide"/>
+        <P class="name">original pepper mayo slider</p>
+        <p class="price">&pound;30.95 |3154kj<P>
+        <p>------------------------------------</p>
+        <p class="des"> An Original tender, a touch of salad and drizzled with Pepper Mayo.</p>
+        <br>
+        <br>
+        <select class="pieces" >
+            <optgroup label="number of pieces:">
+                <option> 1 pieces with cola</option>
+                <option> 2 pieces with cola</option>
+                <option> 3 pieces with cola</option>
+                <option> 4 pieces with cola</option>
+                <option> 5 pieces with cola</option>
+                <option> 6 pieces with cola</option>
+                <option> 7 pieces with cola</option>
+                <option> 8 pieces with cola</option>
+                <option> 9 pieces with cola</option>
+                <option> 10 pieces with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="third"  type="button" value="Order now">
+    </div>
+    </div>
+    <div class="clear"></div>
+    <div class="row3">
+    <div class="one">
+        <img class="img" src="P6_SB_Supercharged_Twister_web_thumb.jpg" alt="P6_SB_Supercharged_Twister" />
+        <P class="name">original supercharged twister</p>
+        <p class="price">&pound;60.95 |2141kj<P>
+        <p>------------------------------------</p>
+        <p class="des">Golden Original Tenders twisted up in a warm tortilla with lettuce, 
+        tomato and lashings of Supercharged.that’s how we roll.</p>
+        <select class="pieces" >
+            <optgroup label="number of Sandwich:">
+                <option> 1 Sandwich with cola</option>
+                <option> 2 Sandwich with cola</option>
+                <option> 3 Sandwich with cola</option>
+                <option> 4 Sandwich with cola</option>
+                <option> 5 Sandwich with cola</option>
+                <option> 6 Sandwich with cola</option>
+                <option> 7 Sandwich with cola</option>
+                <option> 8 Sandwich with cola</option>
+                <option> 9 Sandwich with cola</option>
+                <option> 10 Sandwich with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="first" type="button" value="Order now">
+    </div>
+    <div class="two">
+        <img class="img" src="6pc_Nuggets_web_thumb.jpg" alt="6pc_Nuggets" />
+        <P class="name"> Nuggets</p>
+        <p class="price">&pound;30.95 |1336kj<P>
+        <p>------------------------------------</p>
+        <p class="des">Our nuggets are made with 100% Aussie chicken breast meat,
+        coated in the secret recipe of 11 herbs and spices with 1 Dipping Sauce.</p>
+        <select class="pieces" >
+            <optgroup label="number of pieces:">
+                <option> 4 pieces with cola</option>
+                <option> 5 pieces with cola</option>
+                <option> 6 pieces with cola</option>
+                <option> 7 pieces with cola</option>
+                <option> 8 pieces with cola</option>
+                <option> 9 pieces with cola</option>
+                <option> 10 pieces with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="second" type="button" value="Order now">
+    </div>
+    <div class="three">
+        <img class="img" src="6pc_Wicked-Wings_web_thumb.jpg" alt="6pc_Wicked-Wings"/>
+        <P class="name"> wicked wings</p>
+        <p class="price">&pound;40.95 |3311kj<P>
+        <p>------------------------------------</p>
+        <p class="des">Chicken wings with a spicy marinade and a crispy crunchy coating with 1 Dipping Sauce</p>
+        <br>
+        <select class="pieces">
+            <optgroup label="number of pieces:">
+                <option> 4 pieces with cola</option>
+                <option> 5 pieces with cola</option>
+                <option> 6 pieces with cola</option>
+                <option> 7 pieces with cola</option>
+                <option> 8 pieces with cola</option>
+                <option> 9 pieces with cola</option>
+                <option> 10 pieces with cola</option>
+            </optgroup>
+        
+        </select>
+        <input class="chosen" id="third" type="button" value="Order now">
+    </div>
+</div>
+<div class="clear"></div>
+<div class="foot">Enjoy your meal</div>
+        <script src="../js/project.js"></script>
+        <script src="../js/project1.js"></script>
+</body>
+</html>

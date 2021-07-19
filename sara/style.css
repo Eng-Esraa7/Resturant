@@ -1,0 +1,54 @@
+p
+{
+    color:rgba(0,0,128,0.9);
+    font-size:19px;
+    font-weight:bold;
+}
+
+.body
+{
+    background-image: url("https://img.freepik.com/free-vector/realistic-international-day-coffee_23-2148659180.jpg?size=626&ext=jpg&ga=GA1.2.1842354922.1600596242");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height: 2300px;
+
+}
+.drink
+{
+    border-style: solid;
+	border-color: #30F4F4;
+	width: 300px;
+	height: 425px;
+	background-color: rgba(255,235,205,0.2);
+	border-radius: 30px;
+    margin:90px;
+    padding-left:10px;
+    float: left;
+}
+h2
+{
+    font-size:30px;
+}
+
+.mainheader
+{
+    
+    height:150px;
+    width: auto;
+}
+button
+{
+	color:white;
+    background-color:green;
+    left: 5px;
+	border-radius: 20px;
+	width: 290px;
+}
+button:active
+{
+    background-color:yellowgreen;
+}
+.price
+{
+    color: rgb(128,0,0)
+}

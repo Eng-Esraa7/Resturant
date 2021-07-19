@@ -1,0 +1,48 @@
+*{
+font-family: Arial,Tahoma;
+text-align: center;
+}
+body{
+background-image: url("https://image.freepik.com/free-photo/two-mouth-watering-delicious-homemade-burger-used-chop-beef_152625-8.jpg");
+background-size:cover  
+}
+img,h2,del,strong,button,p{
+background-color: #fff;
+padding: 2px;
+}
+.grid-container{
+display: inline-grid;
+grid-template-columns: 340px 340px 340px 340px;
+grid-gap: 70px;
+padding: 40px;
+background-color:transparent;
+}
+.grid-item {
+background-color: #fff;
+border: 10px solid #ccc;
+padding: 2px;
+font-size: 19px;
+text-align: center;
+}
+del,strong{
+font-size: 18px;
+margin-bottom: 5px;
+}
+.left{
+text-align: center;
+background-color: #080;
+color: #fff;
+padding: 5px;
+margin: 5px;
+display: block;
+width: 300px;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold
+}
+.left:hover{
+font-weight: bold;
+background-color: #f00;
+font-size: 18px;
+font-weight: bold;
+}

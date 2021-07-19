@@ -1,0 +1,164 @@
+div.Father
+{
+	background-image: url(pic2.jpg);
+	height: 1500px;
+	background-size: 100% 110%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+}
+.rname h1.r1,.rname h1.r2
+{
+	font-family: 'Italianno', cursive;
+	position: absolute;
+	bottom: 260px;
+	font-size: 200px;
+	color: #0EF2F2;
+
+}
+.rname h1.r2
+{
+	bottom: 400px;
+}
+.rname h1.r3
+{
+	font-family: 'Italianno', cursive;
+	position: absolute;
+	left: 320px;
+	top: 1050px;
+	font-size: 200px;
+	color: #13EFBF;
+}
+.sand1,.sand2,.sand3,.sand4,.sand5,.sand6,.sand7,.sand8
+{
+	border-style: solid;
+	border-color: #30F4F4;
+	width: 300px;
+	height: 410px;
+	position: absolute;
+	background-image: url(pic.jpg);
+	background-size: 90% 90%;
+	border-radius: 30px;
+}
+.sand1
+{
+	top: 280px;
+}
+p
+{
+	font-size: 19px;
+	color: black;
+	float: none;
+	position: absolute;
+	top: 230px;
+	
+}
+img.photo
+{
+	position: absolute;
+	left: 70px;
+	bottom: 265px;
+	width: 140px;
+	height: 140px;
+}
+.name
+{
+	position: absolute;
+	bottom: 140px
+}
+.sand1 h2.price,.sand3 h2.price,.sand8 h2.price
+{
+	position: absolute;
+	bottom: 50px
+}
+.sand2 h2.price,.sand4 h2.price,.sand5 h2.price,.sand6 h2.price,.sand7 h2.price
+{
+	position: absolute;
+	bottom: 70px
+}
+
+.add
+{
+	position: absolute;
+	bottom: 25px
+}
+ .button1
+{
+	color: white;
+	background-color: green;
+	font-size: 15px;
+	position: absolute;
+	bottom: 45px;
+	right: 5px;
+	border-radius: 20px;
+	width: 40px;
+	cursor: pointer;
+}
+.order
+{
+	color: white;
+	background-color: green;
+	font-size: 20px;
+	position: absolute;
+	left: 5px;
+	bottom: 2px;
+	border-radius: 20px;
+	width: 290px;
+	cursor: pointer;
+	
+}
+
+.sand2
+{
+	top: 280px;
+	left: 400px;
+}
+.sand3
+{
+	top: 280px;
+	left: 800px;
+}
+.sand4
+{
+	
+	top: 280px;
+	left: 1200px;
+}
+.sand5
+{
+	
+	top: 780px;
+	left:0px;
+
+}
+.sand6
+{
+	
+	top: 780px;
+	left:400px;
+
+}
+.sand7
+{
+	
+	top: 780px;
+	left:800px;
+}
+.sand8
+{
+	top: 780px;
+	left:1200px;
+}
+button.order:hover
+{
+	color: green;
+	transition: 0.8s;
+	background: red;
+}
+
+button.button1:hover
+{
+	color: green;
+	transition: 0.8s;
+	background: red;
+}

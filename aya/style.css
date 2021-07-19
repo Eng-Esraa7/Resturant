@@ -1,0 +1,143 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body
+{
+background-image:url("https://comelite-arch.com/wp-content/uploads/2018/09/A-Study-of-Fast-Food-Restaurant-Design-4.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+margin:0px;
+padding:0px;
+font-size:20px;
+font-family:Georgia, serif;
+}
+h1
+{
+text-align:center;
+}
+.mydiv
+{
+width:350px;
+height:550px; 
+/* background-color:#cc7a005c; */
+/* background-color:#cc7a00; */
+margin:80px auto;
+padding:40px;
+/* backgroun:rgba(44,62,80,0.7); */
+/* background:transparent; */
+border-radius:25px;
+background:#cc7a00b8;
+}
+.myavator
+{
+width:100px;
+height:100px; 
+border-radius:90%;
+position:absolute;
+top:30px;
+right:715px;
+}
+label
+{
+font-weight:bolder;
+font-size:25px; 
+/* margin-bottom:20px; */
+}
+input[type="password"],input[type="text"],input[type="submit"],input[type="email"],input[type="date"]
+{
+width:100%;
+margin-bottom:20px;
+}
+a
+{
+/* color:#e67300; */
+color:#4d1500;
+font-size:20px;
+font-weight:bold;
+}
+a:hover
+{
+color:#ffff00;
+/* color:#e0e0d1; */
+/* color:#4d4d00; */
+}
+input[type="password"],input[type="text"],input[type="email"],input[type="date"]
+{
+border:none;
+border-bottom:2px solid #FFF; 
+background:transparent;
+outline:none;
+height:30px;
+font-size:20px;
+}
+input[type="submit"]
+{
+border:none;
+outline:none;
+height:30px;
+font-size:25px;
+/* background-color:#ffa31a; */
+background-color:#ffa31afc;
+color:#FFF;
+border-radius:20px;
+}
+#up
+{
+margin-top:10px;
+margin-bottom:15px;
+}
+input[type="reset"]
+{
+border:none;
+outline:none;
+height:30px;
+font-size:25px;
+background-color:#ffa31afc;
+color:#FFF;
+/* background-color:#ffa31a; */
+/* color:#FFF; */
+border-radius:20px;
+display:block;
+text-align:center;
+margin-top:10px;
+margin-bottom:10px;
+/* position:absolute; */
+/* right:840px; */
+width:100%;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+cursor:pointer;
+/* background:#595959; */
+background:#ffcc00;
+color:#FFF;
+/* color:#e6e6e6; */
+}
+input::placeholder,input[type="date"]
+{
+color:#eaeae1;
+font-size:20px;
+}
+p
+{
+display:inline;
+font-size:20px;
+font-weight:bolder;
+}
+
+.myp
+{
+color:#994d00;
+font-size:20px;
+text-align:center;
+margin-top:60px;
+}
+.link
+{
+text-align:center;
+display:block; 
+margin-bottom:25px;
+}
+.cup
+{
+margin-top:10px;
+}
+
